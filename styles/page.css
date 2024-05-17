@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.page {
+  max-width: 1280px;
+  border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.text {
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  border: none;
+  padding: 0;
+}
+
+.fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.link {
+  color: #000000;
+  text-decoration: none;
+}
