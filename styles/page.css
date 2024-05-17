@@ -38,3 +38,61 @@
   color: #000000;
   text-decoration: none;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fieldset__info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input {
+  padding: 12px 10px;
+  border-radius: 8px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #414149;
+}
+
+.submit {
+  padding: 16px 24px;
+  border-radius: 4px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.submit:hover {
+  opacity: 0.6;
+}
+
+.donations__quantity {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.donations__span-visible:hover {
+  opacity: 0.6;
+}
+
+.donation__input-sum {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  clip-path: inset(0 0 0 0);
+}

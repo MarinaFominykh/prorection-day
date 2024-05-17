@@ -61,67 +61,71 @@
               />
             </div>
           </div>
+          <form class="form intro__form">
+            <fieldset class="fieldset fieldset__info intro__fieldset">
+              <input
+                class="input intro__input"
+                placeholder="Ваше имя"
+                type="text"
+                required
+              />
+              <input
+                class="input intro__input"
+                placeholder="Ваша почта"
+                type="email"
+                required
+              />
+              <input
+                class="input intro__input"
+                placeholder="Ваше компания"
+                type="text"
+              />
+            </fieldset>
+            <fieldset class="donations__quantity fieldset">
+              <label for="sum_300" class="donations__label">
+                <input
+                  class="donation__input-sum input radio"
+                  type="radio"
+                  name="sum"
+                  id="sum_300"
+                  value="300"
+                />
+                <span class="donations__span-visible">300</span>
+              </label>
+
+              <label for="sum_1100" class="donations__label">
+                <input
+                  class="donation__input-sum input radio"
+                  type="radio"
+                  name="sum"
+                  id="sum_1100"
+                  value="1100"
+                />
+                <span class="donations__span-visible">1100</span>
+              </label>
+
+              <label for="sum_5000" class="donations__label">
+                <input
+                  class="donation__input-sum input radio"
+                  type="radio"
+                  name="sum"
+                  id="sum_5000"
+                  value="5000"
+                />
+                <span class="donations__span-visible">5000</span>
+              </label>
+            </fieldset>
+            <input
+              class="input intro__input"
+              type="text"
+              placeholder="Другая сумма"
+              maxlength="12"
+              min="1"
+            />
+            <button class="button submit intro__submit">Победить страх</button>
+          </form>
         </div>
       </section>
-      <div class="forms">
-        <h2 class="title-form">Стандартная форма mixplat</h2>
-        <mixplat-form
-          id="d78fe53b-ee4a-4ab4-8273-e5c4d08226f3"
-          data-type="mixplat-form"
-          data-tid="9477"
-        ></mixplat-form>
-      </div>
-      <div class="progress">
-        <h2 class="title-form">Прогресс-бары</h2>
-        <h3 class="title-form">Одиночество</h3>
-        <div
-          class="progress"
-          id="196638e0-5087-4d55-9a4f-8fa841026419"
-          data-type="mixplat-stat"
-        ></div>
-        <h3 class="title-form">Предательство</h3>
-        <div
-          class="progress"
-          id="59d37964-c4fd-4e4b-8449-ab06129b827b"
-          data-type="mixplat-stat"
-        ></div>
-        <h3 class="title-form">Страх насилия</h3>
-        <div
-          class="progress"
-          id="4f566b76-5649-4cdd-9875-b400112ccb67"
-          data-type="mixplat-stat"
-        ></div>
-        <h3 class="title-form">Страх темноты</h3>
-        <div id="edce68b7-3acb-4191-9755-7e8c2152228b"></div>
-      </div>
-      <div class="castom-form">
-        <h3 class="title-form">Кастомная форма</h3>
-
-        <button id="mixplat_widget">Отправить</button>
-      </div>
-
-      <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function () {
-          let elem = document.getElementById('mixplat_widget');
-          elem.addEventListener('click', function () {
-            let options = {
-              widget_key: '1becc19b-d3e8-422f-bb28-14ec9d94e66b',
-              amount: 1000, // 10 руб. 00 коп.
-              description: 'Благотворительное пожертвование',
-              user_email: 'email@mail.ru',
-              recurrent_payment: 0,
-            };
-            let M = new Mixplat(options);
-            M.build();
-            M.setSuccessCallback(function (o, i) {
-              console.log('success');
-            });
-            M.setFailCallback(function (o, i) {
-              console.log('fail');
-            });
-          });
-        });
-      </script>
     </main>
 
     <footer class="footer"></footer>
