@@ -1,0 +1,82 @@
+.stat {
+  min-height: 559px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url('../images/clouds_backgound.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 48px;
+  margin-bottom: 64px;
+}
+.stat__content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: auto 0 0 0;
+}
+.stat__text-wrp {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.stat__text {
+  max-width: 488px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+.stat__image-wrp {
+  max-width: 592px;
+  margin: auto 0 0 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .stat {
+    padding-bottom: 0;
+    margin-bottom: 36px;
+  }
+  .stat__content {
+    flex-direction: column;
+  }
+  .stat__text-wrp {
+    gap: 16px;
+  }
+  .stat__text {
+    max-width: 664px;
+  }
+  .stat__text {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .stat__image-wrp {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .stat {
+    margin-bottom: 52px;
+  }
+  .stat__content {
+    gap: 16px;
+  }
+  .stat__image-wrp {
+    max-width: 371px;
+  }
+  .stat__text {
+    max-width: 327px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .stat__text_bold {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+  }
+}

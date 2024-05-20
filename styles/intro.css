@@ -10,7 +10,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 100px;
 }
 
 .intro__main {
@@ -19,7 +18,7 @@
   display: flex;
   gap: 24px;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .header {
   position: relative;
@@ -29,7 +28,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 0;
-  background-color: #ffffff;
 }
 
 .logo {
@@ -50,7 +48,7 @@
   cursor: pointer;
   transition: 0.3s;
   background: transparent;
-  background-image: url("../images/icons/burger.svg");
+  background-image: url('../images/icons/burger.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -64,7 +62,6 @@
   top: 0;
   right: 0px;
   left: 0;
-
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
@@ -87,7 +84,7 @@
   height: 44px;
   cursor: pointer;
   background-color: transparent;
-  background-image: url("../images/icons/close.svg");
+  background-image: url('../images/icons/close.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -104,7 +101,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  font-family: "Amatic", Arial, Helvetica, sans-serif;
+  font-family: 'Amatic', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -120,7 +117,7 @@
 }
 
 .header__social-title {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -132,7 +129,7 @@
 .header__nav-list {
   display: flex;
   gap: 56px;
-  font-family: "Amatic", Arial, Helvetica, sans-serif;
+  font-family: 'Amatic', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -176,12 +173,12 @@
   align-items: center;
   gap: 24px;
   background: rgba(255, 255, 255, 0.15);
-  margin: auto auto 106px auto;
+  /* margin: auto auto 106px auto; */
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   z-index: 2;
 }
 .intro__content::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -193,7 +190,7 @@
 .intro__title {
   position: relative;
   z-index: 2;
-  font-family: "Amatic", Arial, Helvetica, sans-serif;
+  font-family: 'Amatic', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 128px;
@@ -204,7 +201,7 @@
   position: relative;
   z-index: 2;
   max-width: 490px;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -247,7 +244,7 @@ button {
   z-index: 2;
 }
 .intro__form::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -272,7 +269,7 @@ button {
   border-radius: 8px;
   border: 2px solid #57b4f7;
   background: #ffffff;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -321,7 +318,7 @@ button {
     height: auto;
     gap: 16px;
     padding: 0 16px;
-    margin: 0 0 32px 0;
+    /* margin: 0 0 32px 0; */
   }
   .intro__title {
     font-size: 64px;
@@ -359,7 +356,6 @@ button {
     gap: 16px;
     padding-top: 24px;
     background-image: url(../images/main_mob.png);
-
     background-size: contain;
     background-repeat: repeat-y;
   }
@@ -367,6 +363,7 @@ button {
     max-width: 327px;
     padding: 0;
     margin-bottom: 10px;
+    /* background-color: #ffffff; */
   }
   .header__nav-cntr {
     display: none;
@@ -376,9 +373,11 @@ button {
   }
   .intro__content {
     max-width: 327px;
+    margin: auto;
   }
   .intro__form {
     max-width: 327px;
+    margin: auto;
   }
   .intro__title {
     font-size: 56px;
