@@ -14,21 +14,27 @@
 
   <body class="page">
     <main class="content">
-      <section class="intro">
-        <div class="header">
-          <div class="image-wrapper logo">
-            <img class="image" src="/images/icons/logo.svg" alt="Лого" />
+      <div class="header__nav-cntr-mob">
+        <div class="header__menu-mob">
+          <div class="header__menu-mob-head">
+            <div class="image-wrapper logo">
+              <img class="image" src="/images/icons/logo.svg" alt="Лого" />
+            </div>
+            <button class="button header__menu-close"></button>
           </div>
-          <nav>
-            <ul class="header__nav-list list">
-              <li class="header__nav-item">
-                <a class="header__nav-link link" href="#">Чего боятся дети?</a>
+          <nav class="header__nav-mob">
+            <ul class="header__nav-list-mob list">
+              <li class="header__nav-item-mob">
+                <a class="header__nav-link-mob link" href="#"
+                  >Чего боятся дети?</a
+                >
               </li>
-              <li class="header__nav-item">
+              <li class="header__nav-item-mob">
                 <a href="#" class="header__nav-link link">Кому мы помогаем?</a>
               </li>
             </ul>
           </nav>
+          <p class="text header__social-title">Наши соц.сети</p>
           <div class="header__social-cntr">
             <div class="image-wrapper header_icon">
               <a href="#" class="link header__social-link"
@@ -44,6 +50,48 @@
               /></a>
             </div>
           </div>
+        </div>
+      </div>
+      <section class="intro">
+        <div class="header">
+          <div class="image-wrapper logo">
+            <img class="image" src="/images/icons/logo.svg" alt="Лого" />
+          </div>
+          <div class="header__nav-cntr">
+            <nav>
+              <ul class="header__nav-list list">
+                <li class="header__nav-item">
+                  <a class="header__nav-link link" href="#"
+                    >Чего боятся дети?</a
+                  >
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link link"
+                    >Кому мы помогаем?</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="header__social-cntr">
+              <div class="image-wrapper header_icon">
+                <a href="#" class="link header__social-link"
+                  ><img
+                    class="image"
+                    src="/images/icons/vk.svg"
+                    alt="ВКонтакте"
+                /></a>
+              </div>
+              <div class="image-wrapper header_icon">
+                <a href="#" class="link header__social-link"
+                  ><img
+                    class="image"
+                    src="/images/icons/telegram.svg"
+                    alt="Telegram"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <button class="button header__burger"></button>
         </div>
         <div class="intro__main">
           <div class="intro__content">
@@ -64,24 +112,36 @@
               />
             </div>
           </div>
-          <form class="form intro__form">
+          <div class="intro__form">
+            <mixplat-form
+              style="position: relative; z-index: 2"
+              id="d78fe53b-ee4a-4ab4-8273-e5c4d08226f3"
+              data-type="mixplat-form"
+              data-tid="9476"
+            ></mixplat-form>
+          </div>
+
+          <!-- <form class="form intro__form" name="shared" id="9476">
             <fieldset class="fieldset fieldset__info intro__fieldset">
               <input
                 class="input intro__input"
                 placeholder="Ваше имя"
                 type="text"
                 required
+                name="name"
               />
               <input
                 class="input intro__input"
                 placeholder="Ваша почта"
                 type="email"
                 required
+                name="email"
               />
               <input
                 class="input intro__input"
                 placeholder="Ваше компания"
                 type="text"
+                name="company"
               />
             </fieldset>
             <fieldset class="donations__quantity fieldset">
@@ -124,9 +184,74 @@
               placeholder="Другая сумма"
               maxlength="12"
               min="1"
+              name="other"
             />
-            <button class="button submit intro__submit">Победить страх</button>
-          </form>
+            <button id="mixplat_widget" class="button submit intro__submit">
+              Победить страх
+            </button>
+          </form> -->
+        </div>
+      </section>
+      <section class="about">
+        <h2 class="about__title text">Об акции</h2>
+        <div class="about__description about__description_top">
+          <div class="about__text-wrp">
+            <p class="text about__text">
+              Каждый взрослый, который заботится о детях, по-своему супергерой.
+              Мамы и папы умеют не спать ночами, когда их ребенок болеет, и
+              жалеть, когда ему больно или грустно. Не только в День защиты
+              детей, но и весь год родители, учителя, доктора охраняют границы
+              детства.
+            </p>
+            <p class="text about__text">
+              В нашем Фонде тоже есть супергерои – это детские и семейные
+              психологи. Ежедневно наши специалисты сражаются с непростыми
+              врагами: со страхами приемных детей, которые росли один на один с
+              насилием, одиночеством, голодом. Кого-то запирали в темной
+              комнате, кто-то, наоборот, сбегал из дома.
+            </p>
+          </div>
+
+          <div class="about__image-wrp">
+            <img
+              src="./images/superhero2.png"
+              class="superhero2 image"
+              alt="супергерои"
+            />
+          </div>
+        </div>
+        <div class="about__description about__description_bottom">
+          <div class="about__image-wrp image-scared">
+            <img
+              src="./images/scared.png"
+              class="scared image"
+              alt="супергерои"
+            />
+          </div>
+          <div class="about__text-wrp">
+            <p class="text about__text">
+              Сейчас дети живут в приемных семьях, но их страхи успели вырасти в
+              огромных чудовищ. Ребята до ужаса боятся темноты и засыпать по
+              ночам, боятся снова быть брошенными и даже боятся своего будущего.
+              Оно и правда может быть очень непростым, если взрослые не придут
+              на помощь уже сегодня. Наши супергерои-психологи знают, где живут
+              эти чудовища и как их победить. Для этого им нужно еще кое-что:
+              поддержка других взрослых! Только вместе наша сила необъятна! Мы
+              собрали в карточки главные черты чудовищ, которые так пугают
+              приемных детей. Прочитайте про них, пожалуйста, и давайте вместе
+              сразим их раз и навсегда.
+            </p>
+            <p class="text about__text">
+              Наши супергерои-психологи знают, где живут эти чудовища и как их
+              победить. Для этого им нужно еще кое-что: поддержка других
+              взрослых! Только вместе наша сила необъятна!
+            </p>
+            <p class="text about__text">
+              Мы собрали в карточки главные черты чудовищ, которые так пугают
+              приемных детей. Прочитайте про них, пожалуйста, и давайте вместе
+              сразим их раз и навсегда.
+            </p>
+          </div>
         </div>
       </section>
     </main>
@@ -134,12 +259,12 @@
     <footer class="footer"></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script async src="https://pay.mixplat.com/widget/v3/widget.js"></script>
 
     <script
       src="https://widgets.donation.ru/wloader/a6e7e600-fb35-4b0a-88b6-e93d5c65439b/wloader.js"
       async
     ></script>
+    <!-- <script async src="https://pay.mixplat.com/widget/v3/widget.js"></script> -->
     <script src="./pages/index.js" type="module"></script>
   </body>
 </html>
