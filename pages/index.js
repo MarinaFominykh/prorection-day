@@ -4,7 +4,9 @@ import {
   menuMobile,
   sharedForm,
   KEY,
-} from "../utils/constans.js";
+  popup,
+  popupOpen,
+} from '../utils/constans.js';
 
 // const handleSubmit = (e) => {
 //   e.preventDefault();
@@ -36,11 +38,21 @@ import {
 //   });
 // };
 
-burgerButton.addEventListener("click", () => {
-  menuMobile.classList.add("header__menu-mob_visible");
+burgerButton.addEventListener('click', () => {
+  menuMobile.classList.add('header__menu-mob_visible');
 });
-closeBurgerButton.addEventListener("click", () => {
-  menuMobile.classList.remove("header__menu-mob_visible");
+closeBurgerButton.addEventListener('click', () => {
+  menuMobile.classList.remove('header__menu-mob_visible');
+});
+
+popupOpen.addEventListener('click', (e) => {
+  popup.classList.add('popup_opened');
+});
+
+popup.addEventListener('click', (e) => {
+  if (!e.target.classList.contains('mixplat__form')) {
+    popup.classList.remove('popup_opened');
+  }
 });
 
 // sharedForm.addEventListener("submit", handleSubmit);

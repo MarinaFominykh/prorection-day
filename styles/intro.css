@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .intro__main {
@@ -165,7 +165,7 @@
   position: relative;
   border-radius: 8px;
   width: 100%;
-  max-width: 728px;
+
   padding: 0 46px;
   height: 420px;
   display: flex;
@@ -227,7 +227,9 @@
   right: 19px;
 }
 .intro__form {
-  position: relative;
+  background-color: #fff;
+  padding: 24px;
+  /* position: relative;
   z-index: 2;
   border-radius: 8px;
   padding: 24px;
@@ -235,7 +237,7 @@
   width: 100%;
   background: rgba(255, 255, 255, 0.15);
   margin: auto 0 106px 0;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); */
 }
 .intro__form fieldset,
 input,
@@ -243,7 +245,7 @@ button {
   position: relative;
   z-index: 2;
 }
-.intro__form::after {
+/* .intro__form::after {
   content: '';
   position: absolute;
   top: 0;
@@ -252,7 +254,7 @@ button {
   height: 100%;
   backdrop-filter: blur(12.5px);
   z-index: 1;
-}
+} */
 
 .intro__input {
   border: 2px solid #57b4f7;
