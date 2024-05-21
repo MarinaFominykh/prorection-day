@@ -57,7 +57,7 @@
 .input {
   padding: 10px;
   border-radius: 8px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -68,7 +68,7 @@
 .submit {
   padding: 16px 24px;
   border-radius: 4px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -101,6 +101,16 @@
   opacity: 0;
   clip-path: inset(0 0 0 0);
 }
+.title {
+  font-family: "Amatic", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 68px;
+  color: #0e73bd;
+  margin-bottom: 32px;
+  text-align: center;
+}
 
 @media screen and (max-width: 1080px) {
   .fieldset__info {
@@ -119,5 +129,17 @@
     border-radius: 4px;
     font-size: 20px;
     line-height: 24px;
+  }
+  .title {
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .title {
+    font-size: 38px;
+    line-height: 42px;
+    margin-bottom: 16px;
   }
 }

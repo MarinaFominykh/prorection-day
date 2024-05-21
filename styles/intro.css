@@ -48,7 +48,7 @@
   cursor: pointer;
   transition: 0.3s;
   background: transparent;
-  background-image: url('../images/icons/burger.svg');
+  background-image: url("../images/icons/burger.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -84,7 +84,7 @@
   height: 44px;
   cursor: pointer;
   background-color: transparent;
-  background-image: url('../images/icons/close.svg');
+  background-image: url("../images/icons/close.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -101,7 +101,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  font-family: 'Amatic', Arial, Helvetica, sans-serif;
+  font-family: "Amatic", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -117,7 +117,7 @@
 }
 
 .header__social-title {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -129,7 +129,7 @@
 .header__nav-list {
   display: flex;
   gap: 56px;
-  font-family: 'Amatic', Arial, Helvetica, sans-serif;
+  font-family: "Amatic", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -178,7 +178,7 @@
   z-index: 2;
 }
 .intro__content::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -190,7 +190,7 @@
 .intro__title {
   position: relative;
   z-index: 2;
-  font-family: 'Amatic', Arial, Helvetica, sans-serif;
+  font-family: "Amatic", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 128px;
@@ -201,7 +201,7 @@
   position: relative;
   z-index: 2;
   max-width: 490px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -271,7 +271,7 @@ button {
   border-radius: 8px;
   border: 2px solid #57b4f7;
   background: #ffffff;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -350,7 +350,7 @@ button {
 
 @media screen and (max-width: 650px) {
   .intro {
-    min-height: 747px;
+    /* min-height: 747px; */
     background-image: none;
   }
   .intro__main {

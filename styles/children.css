@@ -1,3 +1,142 @@
 .children {
-  min-height: 374px;
+  max-width: 1192px;
+  width: 100%;
+  padding-top: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.children__subtitle {
+  max-width: 709px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101530;
+  margin-bottom: 48px;
+}
+.children__swiper {
+  max-width: 1192px;
+  width: 100%;
+  margin: 0 0 0 auto;
+}
+.children__card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  align-items: center;
+  border: 1px red solid;
+}
+.children__image-wrp {
+  max-width: 492px;
+  width: 100%;
+}
+.children__name-cntr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #101530;
+}
+.children__description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101530;
+}
+.children__span {
+  font-weight: 500;
+}
+
+.children__button {
+  width: 100%;
+  padding: 16px 24px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.children__button:hover {
+  opacity: 0.6;
+}
+.button__green {
+  background: #3fca82;
+}
+
+.children__control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 184px;
+  margin: 0 auto;
+}
+.children .swiper {
+}
+
+.children .swiper-wrapper {
+  align-items: stretch;
+}
+.children .swiper-slide {
+  height: auto;
+}
+.children .swiper-pagination {
+  position: relative;
+}
+
+.children__navigation {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.children__navigation:hover {
+  opacity: 0.6;
+}
+.children__next {
+  background-image: url(../images/icons/chevron_next.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 12px;
+}
+.children__next.swiper-button-disabled {
+  background-image: url(../images/icons/chevron_next_disable.svg);
+}
+.children__prev {
+  background-image: url(../images/icons/chevron_prev.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 12px;
+}
+.children__prev.swiper-button-disabled {
+  background-image: url(../images/icons/chevron_prev_disable.svg);
+}
+
+.children .swiper-pagination-current {
+  font-family: "Amatic", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: #101530;
 }
