@@ -25,12 +25,14 @@
           <nav class="header__nav-mob">
             <ul class="header__nav-list-mob list">
               <li class="header__nav-item-mob">
-                <a class="header__nav-link-mob link" href="#"
+                <a class="header__nav-link-mob link" href="#fears"
                   >Чего боятся дети?</a
                 >
               </li>
               <li class="header__nav-item-mob">
-                <a href="#" class="header__nav-link link">Кому мы помогаем?</a>
+                <a href="#children" class="header__nav-link link"
+                  >Кому мы помогаем?</a
+                >
               </li>
             </ul>
           </nav>
@@ -61,12 +63,12 @@
             <nav>
               <ul class="header__nav-list list">
                 <li class="header__nav-item">
-                  <a class="header__nav-link link" href="#"
+                  <a class="header__nav-link link" href="#fears"
                     >Чего боятся дети?</a
                   >
                 </li>
                 <li class="header__nav-item">
-                  <a href="#" class="header__nav-link link"
+                  <a href="#children" class="header__nav-link link"
                     >Кому мы помогаем?</a
                   >
                 </li>
@@ -262,7 +264,7 @@
           </div>
         </div>
       </section>
-      <section class="fears">
+      <section id="fears" class="fears">
         <h2 class="text title fears__title">Главные страхи</h2>
         <div class="swiper fears__swiper">
           <ul class="list fears__list swiper-wrapper">
@@ -460,7 +462,7 @@
           <button class="button fears__navigation fears__next"></button>
         </div>
       </section>
-      <section class="children">
+      <section id="children" class="children">
         <h2 class="text title children__title">Вместе сильнее страха</h2>
         <p class="text children__subtitle">
           Страхи не могут жить сами по себе. Они обязательно находят для себя
@@ -473,207 +475,184 @@
         <div class="swiper children__swiper">
           <ul class="list children__list swiper-wrapper">
             <li class="children__card swiper-slide">
-              <div class="children__image-wrp">
-                <img
-                  class="image"
-                  src="./images/children/ilia.png"
-                  alt="Илья"
-                />
+              <div class="children__card-content">
+                <div class="children__image-wrp">
+                  <img
+                    class="image"
+                    src="./images/children/ilia.png"
+                    alt="Илья"
+                  />
+                </div>
+                <div class="children__name-cntr">
+                  <p class="text children__info">Илья</p>
+                  <p class="text children__info">5 лет</p>
+                </div>
+                <div class="children__description">
+                  <p class="children__text text">
+                    <span class="children__span">Страх </span>
+                    Боится одиночества, не отпускает маму ни на шаг от себя.
+                  </p>
+                  <p class="children__text text">
+                    <span class="children__span">Происхождение страха </span>
+                    Несмотря на асоциальный образ жизни, мама Ильи любила своего
+                    ребенка и уделяла ему внимание. Ухаживать за сыном у нее
+                    получалось с трудом, но мальчик был к ней очень привязан. Но
+                    когда Илье было два года, его мама ушла из дома и не
+                    вернулась. В тот день она попала под машину. Илья мало что
+                    помнит из жизни в родной семье, но глубокое чувство тревоги
+                    и одиночества, которое захлестнуло двухлетнего малыша в день
+                    гибели мамы, крепко держит его до сих пор. Полгода мальчик
+                    живет в приемной семье и каждый раз, когда мама просто
+                    выходит в другую комнату, Илья горько рыдает от ужаса.
+                  </p>
+                  <p class="children__text text">
+                    <span class="children__span">Как помочь </span>
+                    Мальчику необходима регулярная работа с психологом, чтобы он
+                    смог пережить утрату, справиться с тревогой и почувствовать
+                    себя в безопасности раз и навсегда.
+                  </p>
+                </div>
               </div>
-              <div class="children__name-cntr">
-                <p class="text children__info">Илья</p>
-                <p class="text children__info">5 лет</p>
-              </div>
-              <div class="children__description">
-                <p class="children__text text">
-                  <span class="children__span">Страх </span>
-                  Боится одиночества, не отпускает маму ни на шаг от себя.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Происхождение страха </span>
-                  Несмотря на асоциальный образ жизни, мама Ильи любила своего
-                  ребенка и уделяла ему внимание. Ухаживать за сыном у нее
-                  получалось с трудом, но мальчик был к ней очень привязан. Но
-                  когда Илье было два года, его мама ушла из дома и не
-                  вернулась. В тот день она попала под машину. Илья мало что
-                  помнит из жизни в родной семье, но глубокое чувство тревоги и
-                  одиночества, которое захлестнуло двухлетнего малыша в день
-                  гибели мамы, крепко держит его до сих пор. Полгода мальчик
-                  живет в приемной семье и каждый раз, когда мама просто выходит
-                  в другую комнату, Илья горько рыдает от ужаса.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Как помочь </span>
-                  Мальчику необходима регулярная работа с психологом, чтобы он
-                  смог пережить утрату, справиться с тревогой и почувствовать
-                  себя в безопасности раз и навсегда.
-                </p>
-              </div>
+
               <button class="button children__button button__green">
                 Победить страх
               </button>
             </li>
             <li class="children__card swiper-slide">
-              <div class="children__image-wrp">
-                <img
-                  class="image"
-                  src="./images/children/ilia.png"
-                  alt="Илья"
-                />
+              <div class="children__card-content">
+                <div class="children__image-wrp">
+                  <img
+                    class="image"
+                    src="./images/children/ira.png"
+                    alt="Илья"
+                  />
+                </div>
+                <div class="children__name-cntr">
+                  <p class="text children__info">Ира</p>
+                  <p class="text children__info">13 лет</p>
+                </div>
+                <div class="children__description">
+                  <p class="children__text text">
+                    <span class="children__span">Страх: </span>
+                    Боится предательства и одиночества.
+                  </p>
+                  <p class="children__text text">
+                    <span class="children__span">Происхождение страха: </span>
+                    Когда Ира была еще совсем малышкой, ее кровная семья
+                    выставила Иру из дома зимой. С тех пор девочка не видела
+                    своих родителей, а все взрослые, которые ей встречались
+                    впоследствии, говорили: “Ира – трудный ребенок”. Это же и
+                    услышала и ее приемная мама, когда она решила забрать
+                    девочку из детского дома. Ира грубила взрослым, плохо
+                    училась. Девочка настолько боялась остаться снова одной, что
+                    для защиты себя она смогла выбрать лишь агрессивный напор.
+                  </p>
+                  <p class="children__text text">
+                    <span class="children__span">Как помочь: </span>
+                    Приемная мама сразу поняла, что Ира на самом деле израненный
+                    ребенок, которому нужна профессиональная помощь психолога.
+                    Он поможет Ире побороть тревожность, агрессию, научит
+                    правильно реагировать на разные ситуации. В результате
+                    девочка наконец-то поймет, что ее любят и больше никогда не
+                    предадут.
+                  </p>
+                </div>
               </div>
-              <div class="children__name-cntr">
-                <p class="text children__info">Илья</p>
-                <p class="text children__info">5 лет</p>
-              </div>
-              <div class="children__description">
-                <p class="children__text text">
-                  <span class="children__span">Страх </span>
-                  Боится одиночества, не отпускает маму ни на шаг от себя.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Происхождение страха </span>
-                  Несмотря на асоциальный образ жизни, мама Ильи любила своего
-                  ребенка и уделяла ему внимание. Ухаживать за сыном у нее
-                  получалось с трудом, но мальчик был к ней очень привязан. Но
-                  когда Илье было два года, его мама ушла из дома и не
-                  вернулась. В тот день она попала под машину. Илья мало что
-                  помнит из жизни в родной семье, но глубокое чувство тревоги и
-                  одиночества, которое захлестнуло двухлетнего малыша в день
-                  гибели мамы, крепко держит его до сих пор. Полгода мальчик
-                  живет в приемной семье и каждый раз, когда мама просто выходит
-                  в другую комнату, Илья горько рыдает от ужаса.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Как помочь </span>
-                  Мальчику необходима регулярная работа с психологом, чтобы он
-                  смог пережить утрату, справиться с тревогой и почувствовать
-                  себя в безопасности раз и навсегда.
-                </p>
-              </div>
-              <button class="button children__button button__green">
+              <button class="button children__button button__red">
                 Победить страх
               </button>
             </li>
             <li class="children__card swiper-slide">
-              <div class="children__image-wrp">
-                <img
-                  class="image"
-                  src="./images/children/ilia.png"
-                  alt="Илья"
-                />
+              <div class="children__card-content">
+                <div class="children__image-wrp">
+                  <img
+                    class="image"
+                    src="./images/children/kolya.png"
+                    alt="Коля"
+                  />
+                </div>
+                <div class="children__name-cntr">
+                  <p class="text children__info">Коля</p>
+                  <p class="text children__info">7 лет</p>
+                </div>
+                <div class="children__description">
+                  <p class="children__text text">
+                    <span class="children__span">Страх: </span>
+                    Боится предательства и физического наказания.
+                  </p>
+                  <p class="children__text text">
+                    <span class="children__span">Происхождение страха: </span>
+                    Еще два года назад Коля находился в кровной семье. Это
+                    трудно назвать жизнью, ведь мальчик с самого маленького
+                    возраста находился в сарае с животными. Когда пьяные встречи
+                    родителей с друзьями становились скучны, Колю использовали
+                    как мальчика для битья. После того, как родителей лишили
+                    прав, Колю смогла забрать родственница. Она была в ужасе,
+                    увидев его впервые: испуганный, маленького роста, с
+                    многочисленными следами побоев. Коля боялся прикасаться к
+                    игрушкам, говорить, двигаться: он постоянно ждал наказания.
+                    С тех пор прошло два года и, конечно, жизнь в заботливой
+                    семье помогла мальчику стать чуть увереннее и смелее, но он
+                    до сих пор не общается с другими детьми, боится взрослых.
+                  </p>
+                  <p class="children__text text">
+                    <span class="children__span">Как помочь: </span>
+                    В сентябре Коля идет в 1 класс и ему очень важно уже сейчас
+                    начать работу с психологом. Кроме индивидуальных
+                    консультаций, психолог рекомендует Коле посещать групповые
+                    занятия с другими детьми. Это поможет осознать, что его
+                    больше никто не будет бить ни за ошибки, ни просто так. Коля
+                    научится доверять людям, почувствует себя уверенным в свои
+                    силах и в своей безопасности.
+                  </p>
+                </div>
               </div>
-              <div class="children__name-cntr">
-                <p class="text children__info">Илья</p>
-                <p class="text children__info">5 лет</p>
-              </div>
-              <div class="children__description">
-                <p class="children__text text">
-                  <span class="children__span">Страх </span>
-                  Боится одиночества, не отпускает маму ни на шаг от себя.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Происхождение страха </span>
-                  Несмотря на асоциальный образ жизни, мама Ильи любила своего
-                  ребенка и уделяла ему внимание. Ухаживать за сыном у нее
-                  получалось с трудом, но мальчик был к ней очень привязан. Но
-                  когда Илье было два года, его мама ушла из дома и не
-                  вернулась. В тот день она попала под машину. Илья мало что
-                  помнит из жизни в родной семье, но глубокое чувство тревоги и
-                  одиночества, которое захлестнуло двухлетнего малыша в день
-                  гибели мамы, крепко держит его до сих пор. Полгода мальчик
-                  живет в приемной семье и каждый раз, когда мама просто выходит
-                  в другую комнату, Илья горько рыдает от ужаса.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Как помочь </span>
-                  Мальчику необходима регулярная работа с психологом, чтобы он
-                  смог пережить утрату, справиться с тревогой и почувствовать
-                  себя в безопасности раз и навсегда.
-                </p>
-              </div>
-              <button class="button children__button button__green">
+
+              <button class="button children__button button__blue">
                 Победить страх
               </button>
             </li>
             <li class="children__card swiper-slide">
-              <div class="children__image-wrp">
-                <img
-                  class="image"
-                  src="./images/children/ilia.png"
-                  alt="Илья"
-                />
+              <div class="children__card-content">
+                <div class="children__image-wrp">
+                  <img
+                    class="image"
+                    src="./images/children/lena.png"
+                    alt="Илья"
+                  />
+                </div>
+                <div class="children__name-cntr">
+                  <p class="text children__info">Лена</p>
+                  <p class="text children__info">10 лет</p>
+                </div>
+                <div class="children__description">
+                  <p class="children__text text">
+                    <span class="children__span">Страх: </span>
+                    Боится темноты и новых мест.
+                  </p>
+                  <p class="children__text text">
+                    <span class="children__span">Происхождение страха: </span>
+                    Лена с рождения находилась в детском доме, а в пять лет ее
+                    забрали приемные родители. С тех пор прошло несколько лет,
+                    но каждую ночь девочке снятся кошмары, она просыпается в
+                    слезах и долго не может уснуть. Родители считали, что ночные
+                    страхи дочери свойственны ее возрасту, но со временем
+                    поняли, что у истерик и страха темноты есть совсем другое
+                    основание. Постепенно они смогли выяснить, что в детском
+                    доме нянечки, пытаясь усмирить детей, пугали их чудовищами,
+                    спрятавшимися в темных углах. Лена была постоянно напугана и
+                    до сих пор не может совладать со своим страхом.
+                  </p>
+                  <p class="children__text text">
+                    <span class="children__span">Как помочь: </span>
+                    Чтобы справиться со страхом темноты, наладить сон и качество
+                    жизни, Лене нужны занятия с психологом. В результате девочка
+                    наконец-то сможет почувствовать себя в безопасности.
+                  </p>
+                </div>
               </div>
-              <div class="children__name-cntr">
-                <p class="text children__info">Илья</p>
-                <p class="text children__info">5 лет</p>
-              </div>
-              <div class="children__description">
-                <p class="children__text text">
-                  <span class="children__span">Страх </span>
-                  Боится одиночества, не отпускает маму ни на шаг от себя.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Происхождение страха </span>
-                  Несмотря на асоциальный образ жизни, мама Ильи любила своего
-                  ребенка и уделяла ему внимание. Ухаживать за сыном у нее
-                  получалось с трудом, но мальчик был к ней очень привязан. Но
-                  когда Илье было два года, его мама ушла из дома и не
-                  вернулась. В тот день она попала под машину. Илья мало что
-                  помнит из жизни в родной семье, но глубокое чувство тревоги и
-                  одиночества, которое захлестнуло двухлетнего малыша в день
-                  гибели мамы, крепко держит его до сих пор. Полгода мальчик
-                  живет в приемной семье и каждый раз, когда мама просто выходит
-                  в другую комнату, Илья горько рыдает от ужаса.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Как помочь </span>
-                  Мальчику необходима регулярная работа с психологом, чтобы он
-                  смог пережить утрату, справиться с тревогой и почувствовать
-                  себя в безопасности раз и навсегда.
-                </p>
-              </div>
-              <button class="button children__button button__green">
-                Победить страх
-              </button>
-            </li>
-            <li class="children__card swiper-slide">
-              <div class="children__image-wrp">
-                <img
-                  class="image"
-                  src="./images/children/ilia.png"
-                  alt="Илья"
-                />
-              </div>
-              <div class="children__name-cntr">
-                <p class="text children__info">Илья</p>
-                <p class="text children__info">5 лет</p>
-              </div>
-              <div class="children__description">
-                <p class="children__text text">
-                  <span class="children__span">Страх </span>
-                  Боится одиночества, не отпускает маму ни на шаг от себя.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Происхождение страха </span>
-                  Несмотря на асоциальный образ жизни, мама Ильи любила своего
-                  ребенка и уделяла ему внимание. Ухаживать за сыном у нее
-                  получалось с трудом, но мальчик был к ней очень привязан. Но
-                  когда Илье было два года, его мама ушла из дома и не
-                  вернулась. В тот день она попала под машину. Илья мало что
-                  помнит из жизни в родной семье, но глубокое чувство тревоги и
-                  одиночества, которое захлестнуло двухлетнего малыша в день
-                  гибели мамы, крепко держит его до сих пор. Полгода мальчик
-                  живет в приемной семье и каждый раз, когда мама просто выходит
-                  в другую комнату, Илья горько рыдает от ужаса.
-                </p>
-                <p class="children__text text">
-                  <span class="children__span">Как помочь </span>
-                  Мальчику необходима регулярная работа с психологом, чтобы он
-                  смог пережить утрату, справиться с тревогой и почувствовать
-                  себя в безопасности раз и навсегда.
-                </p>
-              </div>
-              <button class="button children__button button__green">
+
+              <button class="button children__button button__orange">
                 Победить страх
               </button>
             </li>

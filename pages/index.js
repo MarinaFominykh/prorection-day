@@ -14,76 +14,76 @@ import {
   betrayalPopupOpen,
   lonelinessPopup,
   lonelinessPopupOpen,
-} from "../utils/constans.js";
+} from '../utils/constans.js';
 
 const openPopup = (popup) => {
-  popup.classList.add("popup_opened");
+  popup.classList.add('popup_opened');
 };
 const closePopup = (e) => {
-  if (!e.target.classList.contains("mixplat__form")) {
-    e.target.classList.remove("popup_opened");
+  if (!e.target.classList.contains('mixplat__form')) {
+    e.target.classList.remove('popup_opened');
   }
 };
 
-burgerButton.addEventListener("click", () => {
-  menuMobile.classList.add("header__menu-mob_visible");
+burgerButton.addEventListener('click', () => {
+  menuMobile.classList.add('header__menu-mob_visible');
 });
-closeBurgerButton.addEventListener("click", () => {
-  menuMobile.classList.remove("header__menu-mob_visible");
+closeBurgerButton.addEventListener('click', () => {
+  menuMobile.classList.remove('header__menu-mob_visible');
 });
 
-mainPopupOpen.addEventListener("click", () => {
+mainPopupOpen.addEventListener('click', () => {
   openPopup(mainPopup);
 });
 
-mainPopup.addEventListener("click", (e) => {
+mainPopup.addEventListener('click', (e) => {
   closePopup(e);
 });
-darknessPopupOpen.addEventListener("click", () => {
+darknessPopupOpen.addEventListener('click', () => {
   openPopup(darknessPopup);
 });
 
-darknessPopup.addEventListener("click", (e) => {
+darknessPopup.addEventListener('click', (e) => {
   closePopup(e);
 });
-violencePopupOpen.addEventListener("click", () => {
+violencePopupOpen.addEventListener('click', () => {
   openPopup(violencePopup);
 });
 
-violencePopup.addEventListener("click", (e) => {
+violencePopup.addEventListener('click', (e) => {
   closePopup(e);
 });
 
-betrayalPopupOpen.addEventListener("click", () => {
+betrayalPopupOpen.addEventListener('click', () => {
   openPopup(betrayalPopup);
 });
 
-betrayalPopup.addEventListener("click", (e) => {
+betrayalPopup.addEventListener('click', (e) => {
   closePopup(e);
 });
 
-lonelinessPopupOpen.addEventListener("click", () => {
+lonelinessPopupOpen.addEventListener('click', () => {
   openPopup(lonelinessPopup);
 });
 
-lonelinessPopup.addEventListener("click", (e) => {
+lonelinessPopup.addEventListener('click', (e) => {
   closePopup(e);
 });
 
-const fearsSlider = new Swiper(".fears__swiper", {
+const fearsSlider = new Swiper('.fears__swiper', {
   slidesPerView: 1,
   spaceBetween: 12,
   pagination: {
-    el: ".fears__pagination",
-    type: "fraction",
+    el: '.fears__pagination',
+    type: 'fraction',
     renderFraction: function (currentClass) {
       return '<span class="' + currentClass + '"></span>';
     },
   },
 
   navigation: {
-    nextEl: ".fears__next",
-    prevEl: ".fears__prev",
+    nextEl: '.fears__next',
+    prevEl: '.fears__prev',
   },
   speed: 800,
   breakpoints: {
@@ -94,16 +94,22 @@ const fearsSlider = new Swiper(".fears__swiper", {
   },
 });
 
-const childrenSlider = new Swiper(".children__swiper", {
-  slidesPerView: 2.15,
+const childrenSlider = new Swiper('.children__swiper', {
+  slidesPerView: 1,
   spaceBetween: 40,
   speed: 800,
   pagination: {
-    el: ".children__pagination",
+    el: '.children__pagination',
   },
 
   navigation: {
-    nextEl: ".children__next",
-    prevEl: ".children__prev",
+    nextEl: '.children__next',
+    prevEl: '.children__prev',
+  },
+  breakpoints: {
+    1080: {
+      slidesPerView: 2.15,
+      spaceBetween: 40,
+    },
   },
 });
