@@ -226,7 +226,7 @@
 
 @media screen and (max-width: 650px) {
   .fears {
-    max-width: 375px;
+    /* max-width: 375px; */
     padding-top: 8px;
     margin: 0 auto;
   }
@@ -234,7 +234,7 @@
     display: block;
   }
   .fears__swiper {
-    max-width: 375px;
+    /* max-width: 375px; */
     margin: 0 auto;
   }
   .fears__card {

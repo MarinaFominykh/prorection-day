@@ -357,14 +357,14 @@ button {
   .intro__main {
     flex-direction: column;
     gap: 16px;
-    padding: 24px 0;
+    padding: 24px 24px;
     background-image: url(../images/main_mob.png);
     background-size: contain;
     /* background-repeat: repeat-y; */
   }
   .header {
-    max-width: 327px;
-    padding: 0;
+    /* max-width: 327px; */
+    padding: 0 24px;
     margin-bottom: 10px;
     /* background-color: #ffffff; */
   }
@@ -375,7 +375,7 @@ button {
     display: block;
   }
   .intro__content {
-    max-width: 327px;
+    /* max-width: 327px; */
     margin: auto;
   }
   .intro__form {

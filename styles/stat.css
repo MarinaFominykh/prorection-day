@@ -3,9 +3,10 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-image: url('../images/clouds_backgound.png');
+  background-image: url("../images/clouds_backgound.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0 0;
   padding-bottom: 48px;
   margin-bottom: 64px;
 }
@@ -22,7 +23,7 @@
 }
 .stat__text {
   max-width: 488px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -60,16 +61,18 @@
 
 @media screen and (max-width: 650px) {
   .stat {
-    margin-bottom: 52px;
+    margin-bottom: 15px;
+    padding: 0 24px;
+    min-height: 510px;
   }
   .stat__content {
     gap: 16px;
   }
   .stat__image-wrp {
-    max-width: 371px;
+    /* max-width: 371px; */
   }
   .stat__text {
-    max-width: 327px;
+    /* max-width: 327px; */
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;

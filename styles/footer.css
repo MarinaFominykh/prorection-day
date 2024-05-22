@@ -4,7 +4,7 @@
 }
 .footer__content {
   max-width: 1104px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -45,7 +45,7 @@
 }
 .footer__mark {
   text-align: center;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -76,10 +76,11 @@
 }
 @media screen and (max-width: 650px) {
   .footer {
-    max-width: 327px;
+    padding: 0 24px;
+    /* max-width: 327px; */
   }
   .footer__content {
-    max-width: 327px;
+    /* max-width: 327px; */
     flex-direction: column;
     gap: 32px;
     margin-bottom: 32px;

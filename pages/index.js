@@ -82,7 +82,7 @@ lonelinessPopup.addEventListener("click", (e) => {
 
 const fearsSlider = new Swiper(".fears__swiper", {
   slidesPerView: 1,
-  spaceBetween: 12,
+  spaceBetween: 40,
   pagination: {
     el: ".fears__pagination",
     type: "fraction",
