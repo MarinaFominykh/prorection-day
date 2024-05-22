@@ -13,6 +13,7 @@ import {
   lonelinessPopup,
   lonelinessPopupOpen,
   childrenButtons,
+  menuLinks,
 } from "../utils/constans.js";
 
 const openPopup = (popup) => {
@@ -26,11 +27,18 @@ const closePopup = (e) => {
 
 burgerButton.addEventListener("click", () => {
   menuMobile.classList.add("header__menu-mob_visible");
+  document.body.classList.add("open-menu");
 });
 closeBurgerButton.addEventListener("click", () => {
   menuMobile.classList.remove("header__menu-mob_visible");
+  document.body.classList.remove("open-menu");
 });
-
+menuLinks.forEach((link) =>
+  link.addEventListener("click", () => {
+    menuMobile.classList.remove("header__menu-mob_visible");
+    document.body.classList.remove("open-menu");
+  })
+);
 mainPopupOpen.addEventListener("click", () => {
   openPopup(mainPopup);
 });

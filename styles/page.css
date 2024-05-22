@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+body.open-menu {
+  height: 100vh;
+  overflow-y: hidden;
+}
 .page {
   max-width: 1280px;
   display: flex;

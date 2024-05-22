@@ -1,6 +1,7 @@
 const burgerButton = document.querySelector(".header__burger");
 const closeBurgerButton = document.querySelector(".header__menu-close");
 const menuMobile = document.querySelector(".header__menu-mob");
+const menuLinks = document.querySelectorAll(".header__nav-link");
 
 const mainPopup = document.querySelector(".popup");
 const mainPopupOpen = document.querySelector(".intro__submit");
@@ -34,4 +35,5 @@ export {
   lonelinessPopup,
   lonelinessPopupOpen,
   childrenButtons,
+  menuLinks,
 };
