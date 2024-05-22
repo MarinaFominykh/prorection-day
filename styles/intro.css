@@ -356,10 +356,10 @@ button {
   .intro__main {
     flex-direction: column;
     gap: 16px;
-    padding-top: 24px;
+    padding: 24px 0;
     background-image: url(../images/main_mob.png);
     background-size: contain;
-    background-repeat: repeat-y;
+    /* background-repeat: repeat-y; */
   }
   .header {
     max-width: 327px;
