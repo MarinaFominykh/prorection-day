@@ -107,7 +107,6 @@ const fearsSlider = new Swiper(".fears__swiper", {
 const childrenSlider = new Swiper(".children__swiper", {
   slidesPerView: 1,
   spaceBetween: 24,
-  autoHeight: true,
   speed: 800,
   pagination: {
     el: ".children__pagination",
@@ -121,7 +120,6 @@ const childrenSlider = new Swiper(".children__swiper", {
     1080: {
       slidesPerView: 2.15,
       spaceBetween: 40,
-      autoHeight: false,
     },
   },
 });

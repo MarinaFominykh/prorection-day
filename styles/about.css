@@ -37,7 +37,6 @@
   max-width: 435px;
 }
 .about__image-wrp-mob {
-  /* max-width: 370px; */
   display: none;
 }
 
@@ -75,7 +74,6 @@
 
 @media screen and (max-width: 650px) {
   .about {
-    /* max-width: 327px; */
     padding: 40px 24px 0 24px;
   }
   .about__title {
@@ -94,12 +92,7 @@
     max-width: 100%;
     font-size: 15px;
   }
-
-  .about__image-wrp {
-    /* max-width: 370px; */
-  }
   .image-scared {
-    /* max-width: 326px; */
     max-width: 100%;
   }
   .about__image-wrp.superhero2-wpr {

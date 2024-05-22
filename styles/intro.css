@@ -66,7 +66,6 @@
   z-index: 4;
   background-color: #ffffff;
   padding: 0 24px 24px 24px;
-  border: 1px red solid;
   width: 100%;
   height: 100vh;
 }
@@ -174,7 +173,6 @@
   align-items: center;
   gap: 24px;
   background: rgba(255, 255, 255, 0.15);
-  /* margin: auto auto 106px auto; */
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   z-index: 2;
 }
@@ -230,15 +228,6 @@
 .intro__form {
   background-color: #fff;
   padding: 24px;
-  /* position: relative;
-  z-index: 2;
-  border-radius: 8px;
-  padding: 24px;
-  max-width: 352px;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.15);
-  margin: auto 0 106px 0;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); */
 }
 .intro__form fieldset,
 input,
@@ -246,16 +235,6 @@ button {
   position: relative;
   z-index: 2;
 }
-/* .intro__form::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(12.5px);
-  z-index: 1;
-} */
 
 .intro__input {
   border: 2px solid #57b4f7;
@@ -321,7 +300,6 @@ button {
     height: auto;
     gap: 16px;
     padding: 0 16px;
-    /* margin: 0 0 32px 0; */
   }
   .intro__title {
     font-size: 64px;
@@ -351,7 +329,6 @@ button {
 
 @media screen and (max-width: 650px) {
   .intro {
-    /* min-height: 747px; */
     background-image: none;
   }
   .intro__main {
@@ -360,13 +337,10 @@ button {
     padding: 24px 24px;
     background-image: url(../images/main_mob.png);
     background-size: contain;
-    /* background-repeat: repeat-y; */
   }
   .header {
-    /* max-width: 327px; */
     padding: 0 24px;
     margin-bottom: 10px;
-    /* background-color: #ffffff; */
   }
   .header__nav-cntr {
     display: none;
@@ -375,7 +349,6 @@ button {
     display: block;
   }
   .intro__content {
-    /* max-width: 327px; */
     margin: auto;
   }
   .intro__form {

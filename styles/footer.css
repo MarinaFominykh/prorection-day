@@ -77,10 +77,8 @@
 @media screen and (max-width: 650px) {
   .footer {
     padding: 0 24px;
-    /* max-width: 327px; */
   }
   .footer__content {
-    /* max-width: 327px; */
     flex-direction: column;
     gap: 32px;
     margin-bottom: 32px;

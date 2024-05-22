@@ -69,10 +69,8 @@
     gap: 16px;
   }
   .stat__image-wrp {
-    /* max-width: 371px; */
   }
   .stat__text {
-    /* max-width: 327px; */
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;

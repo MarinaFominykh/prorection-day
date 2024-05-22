@@ -50,7 +50,6 @@
   margin: 0 0 24px 0;
 }
 .fears__card-text-wrp {
-  /* max-width: 506px; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -226,7 +225,6 @@
 
 @media screen and (max-width: 650px) {
   .fears {
-    /* max-width: 375px; */
     padding-top: 8px;
     margin: 0 auto;
   }
@@ -234,7 +232,6 @@
     display: block;
   }
   .fears__swiper {
-    /* max-width: 375px; */
     margin: 0 auto;
   }
   .fears__card {
